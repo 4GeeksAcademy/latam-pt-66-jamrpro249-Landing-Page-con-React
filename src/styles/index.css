@@ -1,11 +1,73 @@
-/* 
+root {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.navbar {
+    background-color: #33383F;
+    padding: 10px;
+    color: white;
+}
 
-*/
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: rgb(186, 186, 186);
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(197, 232, 252);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.Card-Home {
+    font-size: 1.25rem;
+    font-weight: 300;
+    background-color: #EAECEF;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px 0 0 0;
+}
+
+.Card-Home h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.Card-Home p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
