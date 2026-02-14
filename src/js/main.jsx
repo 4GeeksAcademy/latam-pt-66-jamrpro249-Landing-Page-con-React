@@ -12,7 +12,7 @@ import "../styles/index.css";
 import NavBar from "./components/NavBar";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
-import Jumboton from './components/Home';
+import Home from './components/Home';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <div className="">
       <NavBar />
     </div>
-    <Jumboton />
+    <Home />
     <div className="container my-2">
       <div className="row">
         <div className="col-md-3">

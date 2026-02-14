@@ -1,7 +1,7 @@
 
 
 //create your first component
-const Jumboton = () => {
+const Home = () => {
   return (
     <div className="container">
       <div className="row Card-Home">
@@ -27,4 +27,4 @@ const Jumboton = () => {
   );
 };
 
-export default Jumboton;
+export default Home;
